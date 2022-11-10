@@ -11,26 +11,26 @@ There are six types of services in this projects .
 
 # Features of this project:
 
-# 1. In this website a visitor can Registration with his email and password or Google
+- 1. In this website a visitor can Registration with his email and password or Google
 
-# 2. A visitor can Post a service when he is logged in . Also he can see service description without Logged in.
+- 2. A visitor can Post a service when he is logged in . Also he can see service description without Logged in.
 
-# 3. A visitor can see the Reviews of a service. If he logged in He can add Review here.
+- 3. A visitor can see the Reviews of a service. If he logged in He can add Review here.
 
-# 4. If a visitor is Logged in he can see his Review . He can delete his review or update his review if he want .
+- 4. If a visitor is Logged in he can see his Review . He can delete his review or update his review if he want .
 
-# 5. A visitor can see Blog page without Log in . He can learn about Jwt Token , Node js, etc.
+- 5. A visitor can see Blog page without Log in . He can learn about Jwt Token , Node js, etc.
 
 # Language Which I used for this project
 
-    1. Html
-    2. Css
-    3. Tailwind (a css Library)
-    4. Daisy UI and Mamba UI combination.
-    5. React NPM which I used:
-       = React-Photo-view
-       = React-icons
-    6. For authentication I used Firebase
+- 1.  Html
+- 2.  Css
+- 3.  Tailwind (a css Library)
+- 4.  Daisy UI and Mamba UI combination.
+- 5.  React NPM which I used:
+      = React-Photo-view
+      = React-icons
+- 6.  For authentication I used Firebase
 
 # Backend Language
 

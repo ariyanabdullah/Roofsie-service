@@ -4,14 +4,11 @@ import { FaGoogle } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { authContext } from "../../Context/MainContext";
 import UseTitle from "../../Hooks/UseTitle";
-import Reload from "../Register/Register";
 
 const Register = () => {
   const { RegForm, RegWithGoogle, UpdateUSer } = useContext(authContext);
 
   UseTitle("Register");
-
-  const navigate = useNavigate();
 
   const [load, setLoad] = useState(false);
 
