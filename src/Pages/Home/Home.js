@@ -43,14 +43,14 @@ const Home = () => {
       {/* about section */}
 
       <section className=" container mx-auto mb-6 mt-[80px]">
-        <div className="  grid gap-16  grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+        <div className="  grid sm:gap-3 md:gap-4 lg:gap-16  grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
           <div className="relative">
             <img
-              className=" p-0 object-fit-cover rounded-lg h-[80%]  sm:w-full md:w-full lg:w-full"
+              className=" p-0  rounded-lg sm:h-auto md:h-[85%] h-[80%]  w-full"
               src={about}
               alt=""
             />
-            <div className=" absolute  top-0 right-0 p-3 rounded  bg-white w-[40%] ">
+            <div className=" absolute top-0 p-3 rounded  bg-white w-[40%] ">
               <div className=" bg-red-600 rounded-lg py-2 px-3 text-white">
                 <h1 className="text-4xl font-bold">99%</h1>
                 <p>Satisfied customers</p>
@@ -74,28 +74,28 @@ const Home = () => {
 
             <div>
               <ul>
-                <li className="flex justify-center md:justify-start lg:justify-start font-bold text-2xl items-center">
+                <li className="flex  md:justify-start lg:justify-start font-bold text-2xl items-center">
                   {" "}
                   <span className=" text-red-600 mr-4">
                     <FaCheckCircle />
                   </span>{" "}
                   <span className="text-gray-500"> Inovative Work</span>
                 </li>
-                <li className="flex justify-center md:justify-start lg:justify-start  font-bold text-2xl items-center">
+                <li className="flex  md:justify-start lg:justify-start  font-bold text-2xl items-center">
                   {" "}
                   <span className=" text-red-600 mr-4">
                     <FaCheckCircle />
                   </span>{" "}
                   <span className="text-gray-500"> Certified Guy </span>
                 </li>
-                <li className="flex justify-center md:justify-start lg:justify-start font-bold text-2xl items-center">
+                <li className="flex  md:justify-start lg:justify-start font-bold text-2xl items-center">
                   {" "}
                   <span className=" text-red-600 mr-4">
                     <FaCheckCircle />
                   </span>{" "}
                   <span className="text-gray-500"> Quality Work</span>
                 </li>
-                <li className="flex justify-center md:justify-start lg:justify-start font-bold text-2xl items-center">
+                <li className="flex  md:justify-start lg:justify-start font-bold text-2xl items-center">
                   {" "}
                   <span className=" text-red-600 mr-4">
                     <FaCheckCircle />
