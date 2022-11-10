@@ -28,14 +28,14 @@ There are six types of services in this projects .
 - 3.  Tailwind (a css Library)
 - 4.  Daisy UI and Mamba UI combination.
 - 5.  React NPM which I used:
-      = React-Photo-view
-      = React-icons
+      - React-Photo-view
+      - React-icons
 - 6.  For authentication I used Firebase
 
 # Backend Language
 
-    1. MongoDb Database
-    2. Express js
+- 1.  MongoDb Database
+- 2.  Express js
 
 // My Discussion in the above
 
