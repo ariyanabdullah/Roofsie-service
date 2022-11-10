@@ -6,9 +6,10 @@ live link:https://roofsie.web.app/
 
 # Project Descreption :
 
-# 1.This project is a proffesional roof worker's Project . There are six types of services in this projects .
+This project is a proffesional roof worker's Project .
+There are six types of services in this projects .
 
-# 2. Features of this project:
+# Features of this project:
 
 # 1. In this website a visitor can Registration with his email and password or Google
 
