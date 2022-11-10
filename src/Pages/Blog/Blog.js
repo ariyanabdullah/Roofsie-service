@@ -39,6 +39,13 @@ const Blog = () => {
         </div>
 
         {/* third question */}
+
+        <div>
+          <h1> 3. What is the difference between javascript and NodeJS?</h1>
+          <p></p>
+        </div>
+
+        {/* fourth quesion */}
       </div>
     </section>
   );
