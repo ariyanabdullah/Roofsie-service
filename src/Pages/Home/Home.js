@@ -43,10 +43,10 @@ const Home = () => {
       {/* about section */}
 
       <section className=" container mx-auto mb-16 mt-[80px]">
-        <div className="  grid  grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+        <div className="  grid gap-16  grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
           <div className="relative">
             <img
-              className=" p-0 rounded-lg h-auto  sm:w-full md:w-full lg:w-fit"
+              className=" p-0 rounded-lg h-auto  sm:w-full md:w-full lg:w-full"
               src={about}
               alt=""
             />
@@ -59,10 +59,10 @@ const Home = () => {
           </div>
 
           <div className="sm:text-center md:text-left lg:text-left">
-            <h1 className="text-xl font-bold text-red-600">
+            <h1 className="text-xl my-3 sm:text-center md:text-center lg:text-left font-bold text-red-600">
               ABOUT MY ROOFSIE{" "}
             </h1>
-            <h1 className="text-6xl font-bold my-5 ">
+            <h1 className="text-xl md:text-4xl lg:text-4xl font-bold my-5 ">
               Experienced & quality roofing services provider
             </h1>
             <p className="text-md font-semibold text-gray-500 mt-6 mb-8">
