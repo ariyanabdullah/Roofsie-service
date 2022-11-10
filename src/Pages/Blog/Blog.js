@@ -40,7 +40,7 @@ const Blog = () => {
 
         {/* third question */}
 
-        <div>
+        <div className="py-6 px-5 my-4 border rounded-lg shadow-lg">
           <h1> 3. What is the difference between javascript and NodeJS?</h1>
           <p>
             <span className="font-bold text-red-500">{"=>"}</span>
