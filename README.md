@@ -20,6 +20,22 @@ live link:https://roofsie.web.app/
 
 # 5. A visitor can see Blog page without Log in . He can learn about Jwt Token , Node js, etc.
 
+# Language Which I used for this project
+
+    1. Html
+    2. Css
+    3. Tailwind (a css Library)
+    4. Daisy UI and Mamba UI combination.
+    5. React NPM which I used:
+       = React-Photo-view
+       = React-icons
+    6. For authentication I used Firebase
+
+# Backend Language
+
+    1. MongoDb Database
+    2. Express js
+
 // My Discussion in the above
 
 # Getting Started with Create React App
