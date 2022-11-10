@@ -10,13 +10,13 @@ const HomeService = () => {
       .then((data) => setService(data));
   }, []);
   return (
-    <div className="py-16">
+    <div className="my-12">
       <div className="">
         <div className=" lg:ml-[20%]  lg:mr-[20%]">
           <h1 className="text-xl text-center font-bold text-red-600">
             MY SERVICES
           </h1>
-          <h1 className="text-center font-extrabold  text-6xl mt-1 mb-4">
+          <h1 className="text-center font-bold mb-8  text-4xl ">
             I am providing quality roofing services
           </h1>
         </div>
