@@ -58,6 +58,23 @@ const Blog = () => {
         </div>
 
         {/* fourth quesion */}
+
+        <div className="py-6 px-5 my-4 border rounded-lg shadow-lg">
+          <h1>
+            {" "}
+            4. How does NodeJS handle multiple requests at the same time?
+          </h1>
+
+          <p>
+            <span className="font-bold text-red-500">{"=>"}</span>
+            NodeJS receives multiple client requests and places them into
+            EventQueue. NodeJS is built with the concept of event-driven
+            architecture. NodeJS has its own EventLoop which is an infinite loop
+            that receives requests and processes them
+          </p>
+        </div>
+
+        {/* the End */}
       </div>
     </section>
   );
