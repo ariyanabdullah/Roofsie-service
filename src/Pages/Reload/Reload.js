@@ -1,6 +1,6 @@
 const Reload = () => {
   return (
-    <div className="h-screen bg-white">
+    <div className="h-screen bg-red">
       <div className="flex justify-center items-center h-full">
         <img
           className="h-16 w-16"

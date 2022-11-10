@@ -26,7 +26,6 @@ const MainContext = ({ children }) => {
   const [user, setUser] = useState();
   // Registration
   const RegForm = (email, password) => {
-    setLoading(true);
     return createUserWithEmailAndPassword(auth, email, password);
   };
   // Sign In
@@ -59,8 +58,8 @@ const MainContext = ({ children }) => {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currenUser) => {
-      setLoading(false);
       setUser(currenUser);
+      setLoading(false);
     });
 
     return () => {

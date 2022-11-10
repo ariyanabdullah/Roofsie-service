@@ -87,14 +87,13 @@ const ServiceDetails = () => {
                 <Reload></Reload>
               </>
             )}
-          </>
-
+          </>{" "}
           <Addreview
             SetReload={SetReload}
             key={_id}
             s_title={title}
             s_id={_id}
-          ></Addreview>
+          ></Addreview>{" "}
         </div>
       </section>
     </section>
