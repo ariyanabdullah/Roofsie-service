@@ -1,3 +1,27 @@
+# project name and Live link:
+
+name:Roofsie
+
+live link:https://roofsie.web.app/
+
+# Project Descreption :
+
+# 1.This project is a proffesional roof worker's Project . There are six types of services in this projects .
+
+# 2. Features of this project:
+
+# 1. In this website a visitor can Registration with his email and password or Google
+
+# 2. A visitor can Post a service when he is logged in . Also he can see service description without Logged in.
+
+# 3. A visitor can see the Reviews of a service. If he logged in He can add Review here.
+
+# 4. If a visitor is Logged in he can see his Review . He can delete his review or update his review if he want .
+
+# 5. A visitor can see Blog page without Log in . He can learn about Jwt Token , Node js, etc.
+
+// My Discussion in the above
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +92,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # b6a11-service-review-client-side-ariyanabdullah
