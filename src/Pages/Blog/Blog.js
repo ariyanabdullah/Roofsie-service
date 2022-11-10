@@ -24,6 +24,18 @@ const Blog = () => {
 
         <div>
           <h1> 2. What is JWT, and how does it work? ?</h1>
+          <p>
+            {" "}
+            <span className="font-bold text-red-500">{"=>"}</span> JWT, or JSON
+            Web Token, is an open standard used to share security information
+            between two parties — a client and a server. Each JWT contains
+            encoded JSON objects, including a set of claims. JWTs are signed
+            using a cryptographic algorithm to ensure that the claims cannot be
+            altered after the token is issued. A JWT is a string made up of
+            three parts, separated by dots (.), and serialized using base64. In
+            the most common serialization format, compact serialization, the JWT
+            looks something like this: xxxxx.yyyyy.zzzzz.
+          </p>
         </div>
 
         {/* third question */}
