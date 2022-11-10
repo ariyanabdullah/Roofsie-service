@@ -7,7 +7,7 @@ const Blog = () => {
     <section className="my-16">
       <div className="container mx-auto grid grid-cols-1 ">
         {/* first question */}
-        <div className="py-6 px-5 rounded-lg shadow-lg">
+        <div className="py-6 px-5 my-2 rounded-lg shadow-lg">
           <h1> 1. What is the Difference between SQL and NoSQL ?</h1>
           <p>
             {" "}
@@ -21,6 +21,12 @@ const Blog = () => {
         </div>
 
         {/* second question */}
+
+        <div>
+          <h1> 2. What is JWT, and how does it work? ?</h1>
+        </div>
+
+        {/* third question */}
       </div>
     </section>
   );
