@@ -5,6 +5,9 @@ import { FaCheckCircle } from "react-icons/fa";
 import Testimonial from "./Testimonial/Testimonial";
 import HomeService from "./HomeServices/HomeServices";
 import UseTitle from "../../Hooks/UseTitle";
+import PreFooter from "./PreFooter/PreFooter";
+import PreService from "./PreService/PreService";
+import AnimationCard from "./AnimationCard/AnimationCard";
 
 const Home = () => {
   UseTitle("Home");
@@ -42,15 +45,15 @@ const Home = () => {
 
       {/* about section */}
 
-      <section className=" container mx-auto mb-6 mt-[80px]">
-        <div className="  grid sm:gap-3 md:gap-4 lg:gap-16  grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-          <div className="relative">
+      <section className=" container mx-auto mb-2 mt-[80px]">
+        <div className="  grid   grid-cols-1  lg:grid-cols-2 sm:gap-x-1 md:gap-x-4 lg:gap-x-16 ">
+          <div className="relative ">
             <img
-              className=" p-0  rounded-lg sm:h-auto md:h-[85%] h-[80%]  w-full"
+              className=" p-0 relative rounded-lg h-[70%] object-cover w-full"
               src={about}
               alt=""
             />
-            <div className=" absolute top-0 p-3 rounded  bg-white w-[40%] ">
+            <div className=" absolute top-0 p-3 rounded  bg-white  ">
               <div className=" bg-red-600 rounded-lg py-2 px-3 text-white">
                 <h1 className="text-4xl font-bold">99%</h1>
                 <p>Satisfied customers</p>
@@ -58,7 +61,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="sm:text-center md:text-left lg:text-left">
+          <div className="sm:text-center md:text-left lg:text-left ">
             <h1 className="text-xl my-3 sm:text-center md:text-center lg:text-left font-bold text-red-600">
               ABOUT MY ROOFSIE{" "}
             </h1>
@@ -108,6 +111,18 @@ const Home = () => {
         </div>
       </section>
 
+      {/* animation card  */}
+      {/* 
+      <section>
+        <AnimationCard />
+      </section> */}
+
+      {/* pre service */}
+
+      <section>
+        <PreService></PreService>
+      </section>
+
       {/* service section */}
       <section>
         <HomeService></HomeService>
@@ -115,6 +130,9 @@ const Home = () => {
       {/* testimonial section  */}
       <section>
         <Testimonial></Testimonial>
+      </section>
+      <section>
+        <PreFooter></PreFooter>
       </section>
     </div>
   );

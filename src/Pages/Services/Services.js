@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import UseTitle from "../../Hooks/UseTitle";
+import Banner from "../Home/Banner/Banner";
 import Reload from "../Reload/Reload";
 import Servicecard from "./Servicecard";
 
@@ -15,6 +16,9 @@ const Services = () => {
 
   return (
     <section>
+      <div>
+        <Banner></Banner>
+      </div>
       {service.length === 0 ? (
         <Reload></Reload>
       ) : (

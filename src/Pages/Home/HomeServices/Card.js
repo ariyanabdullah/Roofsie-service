@@ -6,16 +6,22 @@ import "react-photo-view/dist/react-photo-view.css";
 const Card = ({ service }) => {
   const { _id, title, description, image, Price } = service;
   return (
-    <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-lg">
+    <div className="overflow-hidden  transition-shadow duration-300 bg-white rounded-xl shadow-lg">
       <PhotoProvider>
         <PhotoView src={image}>
-          <img className="object-cover w-full h-64" src={image} alt="" />
+          <div className="relative pt-[50%]  rounded-t-xl overflow-hidden">
+            <img
+              className="object-cover w-full absolute   top-0 left-0  hover:scale-105 transition-transform duration-500 ease-in-out rounded-t-xl  h-64"
+              src={image}
+              alt=""
+            />
+          </div>
         </PhotoView>
       </PhotoProvider>
 
       {/* <img src={image} className="object-cover w-full h-64" alt="" /> */}
 
-      <div className="p-5  border-t-0">
+      <div className="p-5  border-t-0 ">
         <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
           <a
             href="/"
@@ -28,9 +34,9 @@ const Card = ({ service }) => {
           <span className="text-gray-600">— {}</span>
         </p>
 
-        <p className="py-2 text-red-500"> price: $ {Price}</p>
+        <p className=" text-red-500"> Price: $ {Price}</p>
 
-        <p className="inline-block h-[30px] mb-16 text-lg leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">
+        <p className="inline-block  mb-4 text-sm leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">
           {description.length > 100
             ? description.slice(0, 100) + ".."
             : description}

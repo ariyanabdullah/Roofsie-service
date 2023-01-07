@@ -45,7 +45,7 @@ const MyReview = () => {
 
   return (
     <div>
-      {myrev.length === 0 ? (
+      {myrev?.length === 0 ? (
         <>
           <div className=" ">
             <div className="h-screen bg-white">
